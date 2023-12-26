@@ -81,5 +81,8 @@
 }
 
 @media (max-width: 560px) {
-
+    .offer__img {
+        width: 100%;
+        min-height: 395px;
+    }
 }
