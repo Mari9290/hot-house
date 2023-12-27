@@ -6,6 +6,9 @@
 @import url(advantages.css);
 @import url(cta.css);
 @import url(faq.css);
+@import url(foto-cta.css);
+@import url(foto-cta-second.css);
+@import url(footer.css);
 
 html {
     position: relative;
@@ -88,7 +91,7 @@ iframe {
     margin: 0 auto;
 }
 
-section, aside {
+section, aside, footer {
     padding: 50px 0;
 }
 

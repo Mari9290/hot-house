@@ -1,0 +1,25 @@
+.foto-cta__img {
+    height: 90vh;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: rgba(64, 63, 63, 0.7);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.carousel-control-prev-icon:hover, 
+.carousel-control-next-icon:hover {
+    background-color: var(--color-black);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .foto-cta__img {
+        height: 100%;
+    }
+
+}
