@@ -5,6 +5,10 @@
     justify-content: space-between;
 }
 
+.offer {
+    padding-top: 120px;
+}
+
 .offer__text {
     margin-bottom: 60px;
 }
