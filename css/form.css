@@ -30,4 +30,10 @@
     margin-bottom: 40px;
 }
 
+@media (max-width: 730px) {
+    .form__container {
+        justify-content: flex-start;
+    }
+}
+
 
