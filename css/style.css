@@ -116,6 +116,14 @@ section, aside, footer {
     margin-right: 10px;
 }
 
+.vertical {
+    padding-top: 150px;
+}
+
+.police {
+    padding-top: 150px;
+}
+
 @media (max-width: 560px) {
     .button {
         padding: 15px 30px;
