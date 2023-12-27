@@ -21,5 +21,12 @@
     .foto-cta__img {
         height: 100%;
     }
-
 }
+
+@media (max-width: 425px) {
+    .foto-cta__img {
+        min-height: 380px;
+    }
+}
+
+

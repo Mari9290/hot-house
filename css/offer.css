@@ -85,4 +85,14 @@
         width: 100%;
         min-height: 395px;
     }
+
+    .offer__par-carousel {
+        top: 22%;
+    }
+}
+
+@media (max-width: 425px) {
+    .offer__img {
+        min-height: 380px;
+    }
 }
