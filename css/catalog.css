@@ -18,3 +18,9 @@
     object-fit: cover;
     height: 300px;
 }
+
+@media (max-width: 560px) {
+    .catalog__wrapper {
+        justify-content: center;
+    }
+}
