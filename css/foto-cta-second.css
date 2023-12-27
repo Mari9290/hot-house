@@ -1,0 +1,11 @@
+.foto-cta-second__img {
+    height: 90vh;
+    object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+    .foto-cta-second__img {
+        height: 100%;
+    }
+
+}
