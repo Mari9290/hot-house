@@ -13,6 +13,7 @@
 @import url(form.css);
 @import url(popup.css);
 @import url(catalog.css);
+@import url(price.css);
 
 html {
     position: relative;
@@ -124,21 +125,14 @@ section, aside, footer {
     padding-top: 150px;
 }
 
-@media (max-width: 560px) {
-    .button {
-        padding: 15px 30px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 425px) {
+@media (max-width: 540px) {
     .container {
         padding: 0 15px;
     }
 
     .button {
-        font-size: 14px;
-        margin-right: 0;
+        padding: 15px 35px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
