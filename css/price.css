@@ -33,3 +33,14 @@
 th, td {
     border: 1px solid grey;
 }
+
+.price__img {
+    height: 70vh;
+    object-fit: contain;
+}
+
+@media (max-width: 540px) {
+    .price__svg {
+        width: 50px;
+    }
+}
