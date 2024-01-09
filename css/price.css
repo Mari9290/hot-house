@@ -20,6 +20,21 @@
     display: inline-block;
 }
 
+.price__schemes:hover {
+    background:  rgb(149, 99, 99);
+    color: #fff;
+}
+
+.price__schemes:focus {
+    background:  rgb(108, 76, 76);
+    color: #fff;
+}
+
+.price__schemes:active {
+    background:  rgb(209, 139, 139);
+    color: #fff;
+}
+
 .table {
     margin-bottom: 20px;
     background-color: var(--color-background);
