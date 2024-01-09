@@ -117,6 +117,20 @@ section, aside, footer {
     margin-right: 10px;
 }
 
+.button:hover {
+    background: linear-gradient(180deg, rgba(201, 67, 0, 0.85) 61.46%, rgba(252, 89, 8, 0.7) 100%);
+    color: #fff;
+}
+
+.button:focus {
+    background: linear-gradient(180deg, rgba(217, 76, 4, 0.7) 100%, rgba(217, 76, 4, 0.85) 61.46%);
+    color: #fff;
+}
+
+.button:active {
+    background: linear-gradient(180deg, rgba(255, 85, 0, 0.85) 61.46%, rgba(255, 105, 30, 0.7) 100%);
+}
+
 .vertical {
     padding-top: 150px;
 }
