@@ -29,13 +29,6 @@
     z-index: 1;
 }
 
-/* .cooperation__svg {
-    width: 20px;
-    display: inline;
-    position: relative;
-    z-index: 3;
-} */
-
 .heading__white {
     position: relative;
     z-index: 2;
@@ -51,14 +44,20 @@
     color: #fff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
     .cooperation__par {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 510px) {
     .cooperation__par {
-        font-size: 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 460px) {
+    .cooperation {
+        height: 80vh;
     }
 }
