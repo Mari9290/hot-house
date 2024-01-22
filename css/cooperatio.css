@@ -1,0 +1,64 @@
+.cooperatio__link {
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    white-space: pre-line;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cooperation {
+    padding-top: 150px;
+    background-image: url(../img/cooperation/P30H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.cooperation__wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(83, 83, 83, 0.60);
+    z-index: 1;
+}
+
+/* .cooperation__svg {
+    width: 20px;
+    display: inline;
+    position: relative;
+    z-index: 3;
+} */
+
+.heading__white {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.cooperation__par {
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    white-space: pre-line;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* @media (max-width: 400px) {
+    .cooperation__par {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 355px) {
+    .cooperation__par {
+        font-size: 16px;
+    }
+} */

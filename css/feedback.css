@@ -1,0 +1,8 @@
+.feedback__container {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback__label {
+    white-space: pre-line;
+}

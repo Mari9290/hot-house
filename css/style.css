@@ -15,6 +15,10 @@
 @import url(catalog.css);
 @import url(price.css);
 @import url(reviews.css);
+@import url(cooperatio.css);
+@import url(benefits.css);
+@import url(feedback.css);
+
 html {
     position: relative;
     box-sizing: border-box;
