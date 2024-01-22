@@ -51,7 +51,7 @@
     color: #fff;
 }
 
-/* @media (max-width: 400px) {
+@media (max-width: 400px) {
     .cooperation__par {
         font-size: 18px;
     }
@@ -61,4 +61,4 @@
     .cooperation__par {
         font-size: 16px;
     }
-} */
+}
