@@ -35,6 +35,20 @@
     color: #fff;
 }
 
+.price__table {
+    overflow: auto;
+	position: relative;
+}
+
+.price__table .table {
+    display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
 .table {
     margin-bottom: 20px;
     background-color: var(--color-background);
@@ -60,5 +74,10 @@ td:hover {
 @media (max-width: 540px) {
     .price__svg {
         width: 50px;
+    }
+
+    .price__img {
+        height: 100%;
+        margin-bottom: 20px;
     }
 }
