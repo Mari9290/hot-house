@@ -1,0 +1,18 @@
+.ad {
+    background: linear-gradient(180deg, rgba(217, 76, 4, 0.85) 61.46%, rgba(217, 76, 4, 0.7) 100%);
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: var(--color-white);
+}
+
+@keyframes scroll-text {
+    to { transform: translateX(-100%); }
+}
+
+.marquee {
+overflow: hidden;
+white-space: nowrap;
+display: inline-block;
+animation: scroll-text 7s linear infinite;
+}

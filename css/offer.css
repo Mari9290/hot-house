@@ -6,7 +6,8 @@
 }
 
 .offer {
-    padding-top: 120px;
+    /* padding-top: 120px; */
+    padding-top: 85px;
 }
 
 .offer__text {
@@ -93,10 +94,19 @@
     .offer__par-carousel {
         top: 22%;
     }
+
 }
 
 @media (max-width: 425px) {
     .offer__img {
         min-height: 380px;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    .offer {
+        padding-top: 65px;
     }
 }
